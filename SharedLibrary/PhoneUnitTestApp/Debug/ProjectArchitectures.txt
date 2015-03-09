@@ -1,0 +1,2 @@
+C:\Users\Bobby\documents\visual studio 2015\Projects\SharedLibrary\PhoneUnitTestApp\PhoneUnitTestApp.vcxproj;x86
+C:\Users\Bobby\documents\visual studio 2015\Projects\SharedLibrary\SharedLibrary\SharedLibrary.Windows\SharedLibrary.Windows.vcxproj;x86

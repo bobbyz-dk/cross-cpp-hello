@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedLibrary", "SharedLibrary", "{EAAF3EAA-6B26-4571-BDAF-DE36A044FCDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary.Shared", "SharedLibrary\SharedLibrary.Shared\SharedLibrary.Shared.vcxitems", "{B3917570-D4FE-490A-BD6A-1FE9E6662026}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary.Android", "SharedLibrary\SharedLibrary.Android\SharedLibrary.Android.vcxproj", "{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedLibrary.Windows", "SharedLibrary\SharedLibrary.Windows\SharedLibrary.Windows.vcxproj", "{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhoneUnitTestApp", "PhoneUnitTestApp\PhoneUnitTestApp.vcxproj", "{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedLibrary\SharedLibrary.Shared\SharedLibrary.Shared.vcxitems*{a22fd2dc-6113-4a37-b98b-d506a29f6dce}*SharedItemsImports = 4
+		SharedLibrary\SharedLibrary.Shared\SharedLibrary.Shared.vcxitems*{6c4cb36a-2222-4d4f-8ec8-01e19d30baa4}*SharedItemsImports = 4
+		SharedLibrary\SharedLibrary.Shared\SharedLibrary.Shared.vcxitems*{b3917570-d4fe-490a-bd6a-1fe9e6662026}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Debug|ARM.ActiveCfg = Debug|ARM
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Debug|ARM.Build.0 = Debug|ARM
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Debug|x86.ActiveCfg = Debug|x86
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Debug|x86.Build.0 = Debug|x86
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Release|ARM.ActiveCfg = Release|ARM
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Release|ARM.Build.0 = Release|ARM
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Release|x86.ActiveCfg = Release|x86
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4}.Release|x86.Build.0 = Release|x86
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Debug|ARM.Build.0 = Debug|ARM
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Debug|x86.ActiveCfg = Debug|Win32
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Debug|x86.Build.0 = Debug|Win32
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Release|ARM.ActiveCfg = Release|ARM
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Release|ARM.Build.0 = Release|ARM
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Release|x86.ActiveCfg = Release|Win32
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE}.Release|x86.Build.0 = Release|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|ARM.Build.0 = Debug|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|ARM.Deploy.0 = Debug|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|x86.Build.0 = Debug|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Debug|x86.Deploy.0 = Debug|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|ARM.ActiveCfg = Release|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|ARM.Build.0 = Release|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|ARM.Deploy.0 = Release|ARM
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|x86.ActiveCfg = Release|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|x86.Build.0 = Release|Win32
+		{AA7CBC7A-CFD4-44C0-A694-69F1D8850AF0}.Release|x86.Deploy.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B3917570-D4FE-490A-BD6A-1FE9E6662026} = {EAAF3EAA-6B26-4571-BDAF-DE36A044FCDF}
+		{6C4CB36A-2222-4D4F-8EC8-01E19D30BAA4} = {EAAF3EAA-6B26-4571-BDAF-DE36A044FCDF}
+		{A22FD2DC-6113-4A37-B98B-D506A29F6DCE} = {EAAF3EAA-6B26-4571-BDAF-DE36A044FCDF}
+	EndGlobalSection
+EndGlobal
