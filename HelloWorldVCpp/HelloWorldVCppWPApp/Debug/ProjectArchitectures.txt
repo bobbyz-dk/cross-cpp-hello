@@ -1,2 +1,1 @@
-C:\Users\Bobby\documents\visual studio 2015\Projects\HelloWorldVCpp\CommonLibrary.WP\CommonLibrary.WP.vcxproj;x86
-C:\Users\Bobby\documents\visual studio 2015\Projects\HelloWorldVCpp\HelloWorldVCppWPApp\HelloWorldVCppWPApp.vcxproj;x86
+C:\master-dev\cross-cpp-hello\HelloWorldVCpp\HelloWorldVCppWPApp\HelloWorldVCppWPApp.vcxproj;x86

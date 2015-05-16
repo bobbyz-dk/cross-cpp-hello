@@ -9,7 +9,7 @@
     <string>46</string>
     <key>objects</key>
     <dict>
-      <key>3c1fead7bba24a5c88f3c7a1</key>
+      <key>4df6510086c14269a52bfa7a</key>
       <dict>
         <key>isa</key>
         <string>PBXFileReference</string>
@@ -22,53 +22,75 @@
         <key>sourceTree</key>
         <string>BUILT_PRODUCTS_DIR</string>
       </dict>
-      <key>fedc366c98a9492f9fb5d5f9</key>
+      <key>841c4fee07c74dbeb1adaeba</key>
       <dict>
         <key>isa</key>
         <string>PBXFileReference</string>
         <key>path</key>
-        <string>/Users/bobbynielsen/vcremote/C/Users/Bobby/Documents/Visual Studio 2015/Projects/HelloWorldVCpp/CommonLibrary/CommonLibrary.iOS/CommonLibrary.iOS.cpp</string>
+        <string>/Users/bobbynielsen/vcremote/C/master-dev/cross-cpp-hello/HelloWorldVCpp/CommonLibrary/CommonLibrary.Shared/CommonLibrary.cpp</string>
         <key>sourceTree</key>
         <string>&lt;absolute&gt;</string>
       </dict>
-      <key>149841cfdaac4669a574c1dc</key>
+      <key>3c6ab182cc864879a865c43c</key>
       <dict>
         <key>isa</key>
         <string>PBXBuildFile</string>
         <key>fileRef</key>
-        <string>fedc366c98a9492f9fb5d5f9</string>
+        <string>841c4fee07c74dbeb1adaeba</string>
         <key>settings</key>
         <dict>
           <key>COMPILER_FLAGS</key>
-          <string>-c -g2 -gdwarf-2 -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -W"bool-conversion" -W"constant-conversion" -W"shorten-64-to-32" -W"enum-conversion" -W"int-conversion" -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -mthumb -fwritable-strings -fno-threadsafe-statics -fno-exceptions -D __APPLE__ -D NDEBUG -D NDEBUG -x c++ -D PLATFORM=1 </string>
+          <string>-c -I "/Users/bobbynielsen/vcremote/C/master-dev/cross-cpp-hello/HelloWorldVCpp/CommonLibrary/CommonLibrary.Shared/" -I /Users/bobbynielsen/vcremote/X/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ -g2 -gdwarf-2 -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -W"bool-conversion" -W"constant-conversion" -W"shorten-64-to-32" -W"enum-conversion" -W"int-conversion" -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -mthumb -fwritable-strings -fno-threadsafe-statics -fno-exceptions -D __APPLE__ -D NDEBUG -D NDEBUG -x c++ -D PLATFORM=1 </string>
         </dict>
       </dict>
-      <key>2a40cc6746084f55ab321ab0</key>
+      <key>f533cfedc22446659a608f32</key>
+      <dict>
+        <key>isa</key>
+        <string>PBXFileReference</string>
+        <key>path</key>
+        <string>/Users/bobbynielsen/vcremote/C/master-dev/cross-cpp-hello/HelloWorldVCpp/CommonLibrary/CommonLibrary.iOS/CommonLibrary.iOS.cpp</string>
+        <key>sourceTree</key>
+        <string>&lt;absolute&gt;</string>
+      </dict>
+      <key>28fbceaa1b49450d822f40dd</key>
+      <dict>
+        <key>isa</key>
+        <string>PBXBuildFile</string>
+        <key>fileRef</key>
+        <string>f533cfedc22446659a608f32</string>
+        <key>settings</key>
+        <dict>
+          <key>COMPILER_FLAGS</key>
+          <string>-c -I "/Users/bobbynielsen/vcremote/C/master-dev/cross-cpp-hello/HelloWorldVCpp/CommonLibrary/CommonLibrary.Shared/" -I /Users/bobbynielsen/vcremote/X/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/ -g2 -gdwarf-2 -Wall -Wswitch -W"no-deprecated-declarations" -W"empty-body" -W"bool-conversion" -W"constant-conversion" -W"shorten-64-to-32" -W"enum-conversion" -W"int-conversion" -W"return-type" -Wparentheses -W"no-pointer-sign" -W"no-format" -Wuninitialized -W"unreachable-code" -W"unused-function" -W"unused-value" -W"unused-variable" -O0 -fno-strict-aliasing -mthumb -fwritable-strings -fno-threadsafe-statics -fno-exceptions -D __APPLE__ -D NDEBUG -D NDEBUG -x c++ -D PLATFORM=1 </string>
+        </dict>
+      </dict>
+      <key>e3cb487056b24c35a9ddb7cf</key>
       <dict>
         <key>isa</key>
         <string>PBXGroup</string>
         <key>children</key>
         <array>
-          <string>fedc366c98a9492f9fb5d5f9</string>
-          <string>76dda220ad3d40a0962a0b0c</string>
+          <string>841c4fee07c74dbeb1adaeba</string>
+          <string>f533cfedc22446659a608f32</string>
+          <string>1e5417646b8e438b80d12613</string>
         </array>
         <key>sourceTree</key>
         <string>&lt;group&gt;</string>
       </dict>
-      <key>76dda220ad3d40a0962a0b0c</key>
+      <key>1e5417646b8e438b80d12613</key>
       <dict>
         <key>isa</key>
         <string>PBXGroup</string>
         <key>children</key>
         <array>
-          <string>3c1fead7bba24a5c88f3c7a1</string>
+          <string>4df6510086c14269a52bfa7a</string>
         </array>
         <key>name</key>
         <string>Products</string>
         <key>sourceTree</key>
         <string>&lt;group&gt;</string>
       </dict>
-      <key>57d72801235c4d4a8e371e7b</key>
+      <key>8ca8db429de04bce9fa1d666</key>
       <dict>
         <key>isa</key>
         <string>PBXSourcesBuildPhase</string>
@@ -76,12 +98,13 @@
         <string>2147483647</string>
         <key>files</key>
         <array>
-          <string>149841cfdaac4669a574c1dc</string>
+          <string>3c6ab182cc864879a865c43c</string>
+          <string>28fbceaa1b49450d822f40dd</string>
         </array>
         <key>runOnlyForDeploymentPostprocessing</key>
         <string>0</string>
       </dict>
-      <key>bc8619ac0ebb42ffa2f9970f</key>
+      <key>7ee830eac1e4438fb83d7b7c</key>
       <dict>
         <key>isa</key>
         <string>XCBuildConfiguration</string>
@@ -90,7 +113,7 @@
         <key>name</key>
         <string>Debug</string>
       </dict>
-      <key>e115f8d77c3e40d9add1b22d</key>
+      <key>895d6b7bb1b0409b9876e21e</key>
       <dict>
         <key>isa</key>
         <string>XCBuildConfiguration</string>
@@ -112,35 +135,35 @@
         <key>name</key>
         <string>Debug</string>
       </dict>
-      <key>ddd9ef37bdb14c41b236b648</key>
+      <key>b2f3d7180b9d4d3aba9a29ac</key>
       <dict>
         <key>isa</key>
         <string>XCConfigurationList</string>
         <key>buildConfigurations</key>
         <array>
-          <string>bc8619ac0ebb42ffa2f9970f</string>
+          <string>7ee830eac1e4438fb83d7b7c</string>
         </array>
         <key>defaultConfigurationName</key>
         <string>Debug</string>
       </dict>
-      <key>50d93c1cb3834582b1ca3cbf</key>
+      <key>c9353206988840fe8caecb5b</key>
       <dict>
         <key>isa</key>
         <string>XCConfigurationList</string>
         <key>buildConfigurations</key>
         <array>
-          <string>e115f8d77c3e40d9add1b22d</string>
+          <string>895d6b7bb1b0409b9876e21e</string>
         </array>
       </dict>
-      <key>15dbb9af14d046d0b520dc0e</key>
+      <key>661598f29d4d4da2abe1593a</key>
       <dict>
         <key>isa</key>
         <string>PBXNativeTarget</string>
         <key>buildConfigurationList</key>
-        <string>50d93c1cb3834582b1ca3cbf</string>
+        <string>c9353206988840fe8caecb5b</string>
         <key>buildPhases</key>
         <array>
-          <string>57d72801235c4d4a8e371e7b</string>
+          <string>8ca8db429de04bce9fa1d666</string>
         </array>
         <key>buildRules</key>
         <array />
@@ -151,11 +174,11 @@
         <key>productName</key>
         <string>CommonLibrary.iOS</string>
         <key>productReference</key>
-        <string>3c1fead7bba24a5c88f3c7a1</string>
+        <string>4df6510086c14269a52bfa7a</string>
         <key>productType</key>
         <string>com.apple.product-type.library.static</string>
       </dict>
-      <key>186ba33ae74b4eafbbf23202</key>
+      <key>cbc34027d4d443559e0cbcba</key>
       <dict>
         <key>isa</key>
         <string>PBXProject</string>
@@ -167,7 +190,7 @@
           <string>MyOrganizationName</string>
           <key>TargetAttributes</key>
           <dict>
-            <key>15dbb9af14d046d0b520dc0e</key>
+            <key>661598f29d4d4da2abe1593a</key>
             <dict>
               <key>CreatedOnToolsVersion</key>
               <string>6.1</string>
@@ -175,7 +198,7 @@
           </dict>
         </dict>
         <key>buildConfigurationList</key>
-        <string>ddd9ef37bdb14c41b236b648</string>
+        <string>b2f3d7180b9d4d3aba9a29ac</string>
         <key>compatibilityVersion</key>
         <string>Xcode 3.2</string>
         <key>developmentRegion</key>
@@ -187,20 +210,20 @@
           <string>en</string>
         </array>
         <key>mainGroup</key>
-        <string>2a40cc6746084f55ab321ab0</string>
+        <string>e3cb487056b24c35a9ddb7cf</string>
         <key>productRefGroup</key>
-        <string>76dda220ad3d40a0962a0b0c</string>
+        <string>1e5417646b8e438b80d12613</string>
         <key>projectDirPath</key>
         <string />
         <key>projectRoot</key>
         <string />
         <key>targets</key>
         <array>
-          <string>15dbb9af14d046d0b520dc0e</string>
+          <string>661598f29d4d4da2abe1593a</string>
         </array>
       </dict>
     </dict>
     <key>rootObject</key>
-    <string>186ba33ae74b4eafbbf23202</string>
+    <string>cbc34027d4d443559e0cbcba</string>
   </dict>
 </plist>

@@ -1,6 +1,6 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\bobby\documents\visual studio 2015\projects\helloworldvcpp\arm\debug\helloworldvcppwpapp\helloworldvcppwpapp.winmd" HashGuid="60922cd9-d363-2f85-bd96-7da636a03a35" />
+    <LocalAssembly PathName="c:\master-dev\cross-cpp-hello\helloworldvcpp\arm\debug\helloworldvcppwpapp\helloworldvcppwpapp.winmd" HashGuid="60922cd9-d363-2f85-bd96-7da636a03a35" />
     <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
