@@ -1,0 +1,2 @@
+C:\Users\Bobby\Documents\Visual Studio 2015\Projects\HelloWorldVCpp\CommonLibrary.WP\CommonLibrary.WP.vcxproj;arm
+C:\Users\Bobby\Documents\Visual Studio 2015\Projects\HelloWorldVCpp\HelloWorldVCppWPApp\HelloWorldVCppWPApp.vcxproj;arm
