@@ -7,7 +7,7 @@ extern "C" {
 	JNIEXPORT jstring JNICALL Java_dk_bobbyz_helloworldvcppandroidapp_CommonLibrary_hello
 		(JNIEnv * env, jobject obj, jstring hello)
 	{
-		CommonLibraryAndroid *lib = new CommonLibraryAndroid();
+		CommonLibrary *lib = new CommonLibrary();
 		const char *str = env->GetStringUTFChars(hello, 0);
 		//std::string helloStr(str);
 		std::string strHello = lib->helloWorld(str);

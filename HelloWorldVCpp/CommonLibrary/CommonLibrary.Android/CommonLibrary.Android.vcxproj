@@ -84,12 +84,10 @@
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CommonLibrary.Android.h" />
     <ClInclude Include="CommonLibrary.AndroidW.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CommonLibrary.Android.cpp" />
     <ClCompile Include="CommonLibrary.AndroidW.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
