@@ -28,3 +28,4 @@
 *.app
 HelloWorldVCpp/CommonLibrary/CommonLibrary.Android/x86/
 HelloWorldVCpp/CommonLibrary/CommonLibrary.iOS/x86/
+HelloWorldVCpp/ipch/
